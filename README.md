@@ -5,4 +5,4 @@ Basically, input a domain - search it with sublist3r, then look for any file wth
 ![image](https://user-images.githubusercontent.com/49936643/134088604-3deabc1f-8111-4132-ad3f-0c63fce076af.png)
 
 
-Remember use this tools wisely and for the greater good!
+Remember use this tool wisely and for the greater good!
