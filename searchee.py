@@ -21,6 +21,6 @@ with open(filepath) as testy:
         line = testy.readline()
         os.system(command1)
         print("-------------------------------------")
-        print("Match: ".format(line.strip()))
+        print("Match: ",format(line.strip()))
         print()
 print("Thanks for using Searchee! Now remember, use this information wisely and for the greater good!")
