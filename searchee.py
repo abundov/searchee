@@ -7,7 +7,7 @@
 import os, sys
 
 print("Make sure you have Subfinder installed, and can open it directly with 'subfinder ..'!")
-print("Let's run Sublist3r and search for any file at the subdomains found.")
+print("Let's run Subfinder and search for any file at the subdomains found.")
 input1 = input("Which host would you like to scan? ")
 file1 = input("Which file would you like to search for? (Eg, config.json): ")
 command = 'subfinder -o results.txt -d ' + input1
