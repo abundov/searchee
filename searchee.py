@@ -6,11 +6,11 @@
 
 import os, sys
 
-print("Make sure you have Sublist3r installed, and can open it directly with 'sublist3r ..'!")
+print("Make sure you have Subfinder installed, and can open it directly with 'subfinder ..'!")
 print("Let's run Sublist3r and search for any file at the subdomains found.")
 input1 = input("Which host would you like to scan? ")
 file1 = input("Which file would you like to search for? (Eg, config.json): ")
-command = 'sublist3r -o results.txt -d ' + input1
+command = 'subfinder -o results.txt -d ' + input1
 os.system(command)
 filepath = 'results.txt'
 with open(filepath) as testy:
